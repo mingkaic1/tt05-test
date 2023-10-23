@@ -23,6 +23,9 @@ module tt_um_mingkaic_test (
     assign uio_out = out;
     assign op = uio_in[1:0];
 
+    // Supress warning
+    assign uo_out = 'b0;
+
     // Configure bidirectional pins
     assign uio_oe = 8'b0000_0000;  // All inputs
 
