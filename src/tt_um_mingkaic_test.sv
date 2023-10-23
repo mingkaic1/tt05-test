@@ -20,7 +20,7 @@ module tt_um_mingkaic_test (
     logic [8:0] in, out;
     logic [1:0] op;
     assign in = ui_in;
-    assign ui_out = out;
+    assign uio_out = out;
     assign op = uio_in[1:0];
 
     // Configure bidirectional pins
